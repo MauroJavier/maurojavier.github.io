@@ -18,10 +18,12 @@
 		<link href="css/jquery.fancybox.css" rel="stylesheet">
 		<link href="css/flickity.css" rel="stylesheet" >
 		<link href="css/animate.css" rel="stylesheet">
-		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 		<link href="css/styles.css" rel="stylesheet">
 		<link href="css/queries.css" rel="stylesheet">
+        <link href="css/default.css" rel="stylesheet">
+
 		<!-- Facebook and Twitter integration -->
 		<meta property="og:title" content=""/>
 		<meta property="og:image" content=""/>
@@ -45,7 +47,7 @@
 		<![endif]-->
 		<!-- open/close -->
 		<header>
-			<section class="hero">
+			<section class="hero" >
 				<div class="texture-overlay"></div>
 				<div class="container">
 					<div class="row nav-wrapper">
@@ -56,23 +58,78 @@
 							<p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
 						</div>
 					</div>
-					<div class="row hero-content">
-						<div class="col-md-12">
+					<div class="row hero-content" id="hero">
+						<div class="col-md-6">
 							<h1 class="animated fadeInDown">Mauro Javier 
 							    <br />
-							    Full Stack Developer in México City
+							    Full Stack Developer
 							    </h1>
 							<!--<a href="http://tympanus.net/codrops/?p=22554" class="use-btn animated fadeInUp">Use it for free</a> <a href="#about" class="learn-btn animated fadeInUp">Learn more <i class="fa fa-arrow-down"></i></a>-->
-						</div>
+		                </div>
+                        <div class="col-md-6">
+                            <div class="legend">
+				                <!--<h1>My Skills:</h1>
+				                <div class="skills">
+					                <ul>
+						                <li class="jq">JavaScript</li>
+						                <li class="css">CSS3</li>
+						                <li class="html">HTML5</li>
+						                <li class="php">PHP</li>
+						                <li class="sql">MySQL</li>
+					                </ul>
+				                </div>-->	
+			                </div>
+                            <div id="diagram"></div>
+                            <div class="get">
+                                <div class="arc">
+				                    <span class="text">Python</span>
+				                    <input type="hidden" class="percent" value="75" />
+				                    <input type="hidden" class="color" value="#1E415E" />
+			                    </div>
+			                    <div class="arc">
+				                    <span class="text">C# .NET</span>
+				                    <input type="hidden" class="percent" value="95" />
+				                    <input type="hidden" class="color" value="#1E75BB" />
+			                    </div>
+                                <div class="arc">
+				                    <span class="text">Oracle</span>
+				                    <input type="hidden" class="percent" value="95" />
+				                    <input type="hidden" class="color" value="#D7412C" />
+			                    </div>
+                                <div class="arc">
+				                    <span class="text">Java</span>
+				                    <input type="hidden" class="percent" value="90" />
+				                    <input type="hidden" class="color" value="#E16756" />
+			                    </div>
+			                    <div class="arc">
+				                    <span class="text">Javascript</span>
+				                    <input type="hidden" class="percent" value="85" />
+				                    <input type="hidden" class="color" value="#0769AD" />
+			                    </div>                                                
+			                    <div class="arc">
+				                    <span class="text">PostgreSQL</span>
+				                    <input type="hidden" class="percent" value="95" />
+				                    <input type="hidden" class="color" value="#008BBA" />
+			                    </div>
+                                
+			                    <div class="arc">
+				                    <span class="text fa fa-search">PHP</span>
+				                    <input type="hidden" class="percent" value="60" />
+				                    <input type="hidden" class="color" value="#8892BF" />
+			                    </div>
+		                    </div>
+                        </div>
 					</div>
 				</div>
 			</section>
 		</header>
+        
+		                
 		<section class="video" id="about">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h1><a href="http://www.youtube.com/embed/9No-FiEInLA?autoplay=1&wmode=opaque&fs=1" class="youtube-media"><i class="fa fa-play-circle-o"></i> Watch the Video</a></h1>
+						<h1>Un cóctel de arte y ciencia...</h1>
 					</div>
 				</div>
 			</div>
@@ -84,7 +141,8 @@
 						<div class="features-bg">
 							<div class="texture-overlay"></div>
 							<div class="features-img wp1">
-								<img src="img/html5-logo.png" alt="HTML5 Logo">
+                                <i class="fa fa-code fa-5x fa-inverse"></i>
+								<!--<img src="img/html5-logo.png" alt="HTML5 Logo">-->
 							</div>
 						</div>
 					</div>
@@ -98,7 +156,7 @@
 									</li>
 									<li>
 										<h1>Pragmatico y minimalista</h1>
-										<p>Me gusta el diseño funcional y las interfaces limpias y pulidas.</p>
+										<p>Diseño funcional e interfaces limpias y pulidas.</p>
 										<p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
 									</li>
 									<li>
@@ -107,86 +165,6 @@
 										<p><a href="http://tympanus.net/codrops/?p=22554" class="arrow-btn">Como no sentir empatia por esta frase en "The Pursuit of Happyness"  .<i class="fa fa-long-arrow-right"></i></a></p>
 									</li>
 								</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="features-list" id="features">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-
-						<div class="col-md-4 feature-1 wp2">
-							<div class="feature-icon">
-								<i class="fa fa-desktop"></i> 
-							</div>
-							<div class="feature-content">
-								<h1>Responsive</h1>
-								<p>Built using HTML5/CSS3 and jQuery, and built using one of the world's most powerful CSS frameworks available, Bootstrap.</p>
-								<a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-							</div>
-						</div>
-						<div class="col-md-4 feature-2 wp2 delay-05s">
-							<div class="feature-icon">
-								<i class="fa fa-flash"></i>
-							</div>
-							<div class="feature-content">
-								<h1>Multi-Purpose</h1>
-								<p>Perfect if you run your own start-up, product or service. Boxify can showcase your business converting your visits to income.</p>
-								<a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-							</div>
-						</div>
-						<div class="col-md-4 feature-3 wp2 delay-1s">
-							<div class="feature-icon">
-								<i class="fa fa-heart"></i>
-							</div>
-							<div class="feature-content">
-								<h1>Absolutely Free</h1>
-								<p>As aways, download Boxify for free exclusively from Codrops. If you love Boxify and want to thank me, simply <a href="http://peterfinlan.com/">buy me a beer</a>. </p>
-								<a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="showcase">
-			<div class="showcase-wrap">
-				<div class="texture-overlay"></div>
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="device wp3">
-								<div class="device-content">
-									<div class="showcase-slider">
-										<ul class="slides" id="showcaseSlider">
-											<li>
-												<img src="img/screen1.jpg" alt="Device Content Image">
-											</li>
-											<li>
-												<img src="img/screen2.jpg" alt="Device Content Image">
-											</li>
-											<li>
-												<img src="img/screen3.jpg" alt="Device Content Image">
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<h1>Showcase your Product or Service</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-							<blockquote class="team-quote">
-								<div class="avatar"><img src="img/avatar.png" alt="User Avatar"></div>
-								<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc." - Peter Finlan</p>
-								<div class="logo-quote">
-									<a href="http://tympanus.net/codrops/"><img src="img/codrops-logo.png" alt="Codrops Logo"></a>
-								</div>
-							</blockquote>
-							<a href="http://tympanus.net/codrops/?p=22554" class="download-btn">Download! <i class="fa fa-download"></i></a>
 						</div>
 					</div>
 				</div>
@@ -214,7 +192,7 @@
 								<figcaption>
 								<div class="caption-content">
 									<a href="https://github.com/MauroJavier/maurojavier.github.io"  target=_blank class="single_image">
-										<i class="fa fa-search"></i><br>
+										<i class="fa fa-clock-o"></i><br>
 										<p>[JChessclock] Aplicación de Escritorio en Java que emula un reloj de ajedrez.</p>
 									</a>
 								</div>
@@ -227,7 +205,7 @@
 								<figcaption>
 								<div class="caption-content">
 									<a href="img/large/02.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
+										<i class="fa fa-anchor"></i><br>
 										<p>[SIW] Aplicación Web escrita en C# para GOMSA LOGISTICA</p>
 									</a>
 								</div>
@@ -240,7 +218,7 @@
 								<figcaption>
 								<div class="caption-content">
 									<a href="http://bioscientia.com.mx" target=_blank class="single_image">
-										<i class="fa fa-search"></i><br>
+										<i class="fa fa-flask"></i><br>
 										<p>[bioscientia.com.mx] Sitio Web para Bioscientia Distribuidora</p>
 									</a>
 								</div>
@@ -253,7 +231,7 @@
 								<figcaption>
 								<div class="caption-content">
 									<a href="http://rbcquimica.com" target=_blank class="single_image">
-										<i class="fa fa-search"></i><br>
+										<i class="fa fa-medkit"></i><br>
 										<p>[rbcquimica.com] Sitio Web para RBCQUIMICA</p>
 									</a>
 								</div>
@@ -270,7 +248,7 @@
 								<figcaption>
 								<div class="caption-content">
 									<a href="img/large/05.jpg" class="single_image">
-										<i class="fa fa-search"></i><br>
+										<i class="fa fa-area-chart"></i><br>
 										<p>Implementación de sistema ERP escrito en Python para Bioscientia Distribuidora</p>
 									</a>
 								</div>
@@ -283,7 +261,7 @@
 								<figcaption>
 								<div class="caption-content">
 									<a href="http://acqualife.mx" target=_blank class="single_image">
-										<i class="fa fa-search"></i><br>
+										<i class="fa fa-truck"></i><br>
 										<p>[acqualife.mx] Sitio Web para Acqualife</p>
 									</a>
 								</div>
@@ -296,7 +274,7 @@
 								<figcaption>
 								<div class="caption-content">
 									<a href="http://cmlmex.com" target=_blank class="single_image">
-										<i class="fa fa-search"></i><br>
+										<i class="fa fa-hospital-o"></i><br>
 										<p>[cmlmex.com] Sitio Web para Comercializadora Medica y Laboratorios</p>
 									</a>
 								</div>
@@ -340,8 +318,8 @@
 					</div>
 					<div class="col-md-7">
 						<ul class="footer-nav">
-							<li><a href="#about">Experiencia</a></li>
-							<li><a href="#features">Skills</a></li>
+							<li><a href="#about">Acerca de mi</a></li>
+							<li><a href="#hero">Skills</a></li>
 							<li><a href="#screenshots">Portafolio</a></li>
 							<li><a href="#download">Descargar CV</a></li>
 						</ul>
@@ -352,8 +330,8 @@
 		<div class="overlay overlay-boxify">
 			<nav>
 				<ul>
-					<li><a href="#about"><i class="fa fa-heart"></i>Experiencia</a></li>
-					<li><a href="#features"><i class="fa fa-flash"></i>Skills</a></li>
+					<li><a href="#about"><i class="fa fa-street-view"></i>Acerca de mi</a></li>
+					<li><a href="#hero"><i class="fa fa-flash"></i>Skills</a></li>
 				</ul>
 				<ul>
 					<li><a href="#screenshots"><i class="fa fa-desktop"></i>Portafolio</a></li>
@@ -363,7 +341,10 @@
 		</div>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/min/toucheffects-min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/raphael.js" type="text/javascript"></script>
+		<script src="js/init.js" type="text/javascript"></script>
 		<script src="js/flickity.pkgd.min.js"></script>
 		<script src="js/jquery.fancybox.pack.js"></script>
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -372,13 +353,13 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/min/scripts-min.js"></script>
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-		<script>
+		<!--<script>
 		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
 		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
 		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
 		e.src='//www.google-analytics.com/analytics.js';
 		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
 		ga('create','UA-XXXXX-X');ga('send','pageview');
-		</script>
+		</script>-->
 	</body>
 </html>
