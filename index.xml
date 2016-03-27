@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>byte.uno</title>
+    <link>https://byte.uno/</link>
+    <description>Recent content on byte.uno</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 13 Mar 2016 19:50:45 -0500</lastBuildDate>
+    <atom:link href="https://byte.uno/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>how to install mongodb on windows</title>
+      <link>https://byte.uno/article/how-to-install-mongodb-on-windows/</link>
+      <pubDate>Sun, 13 Mar 2016 19:50:45 -0500</pubDate>
+      
+      <guid>https://byte.uno/article/how-to-install-mongodb-on-windows/</guid>
+      <description>&lt;p&gt;Sometimes you need mongodb installed locally for development purposes, and here is how to
+install mongodb on your windows machine.&lt;/p&gt;
+
+&lt;p&gt;1.- First go to the site &lt;a href=&#34;https://www.mongodb.org/&#34;&gt;https://www.mongodb.org/&lt;/a&gt; and download the .msi package&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://byte.uno/static/htimow13032016_1.PNG&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2.- After that create the next folder structure in your hard drive.&lt;/p&gt;
+
+&lt;p&gt;C:\data\db&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;3.- Now you need to set your environment variables.&lt;/p&gt;
+
+&lt;p&gt;Add the bin path to the mongod and mongo executables to your Path environment variable
+usually C:\Program Files\MongoDB\Server\3.0\bin&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://byte.uno/static/htimow13032016_2.PNG&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;4.- Try your installation :)&lt;/p&gt;
+
+&lt;p&gt;open the cmd terminal and type mongod to start the service
+and in another terminal execute the mongo client&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://byte.uno/static/htimow13032016_3.PNG&#34; alt=&#34;Example image&#34; /&gt;
+&lt;img src=&#34;https://byte.uno/static/htimow13032016_4.PNG&#34; alt=&#34;Example image&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
