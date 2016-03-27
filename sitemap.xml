@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://byte.uno/</loc>
+    <loc>http://byte.uno/</loc>
     <lastmod>2016-03-13T19:50:45-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://byte.uno/article/how-to-install-mongodb-on-windows/</loc>
+    <loc>http://byte.uno/article/how-to-install-mongodb-on-windows/</loc>
     <lastmod>2016-03-13T19:50:45-05:00</lastmod>
   </url>
   
