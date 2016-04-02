@@ -73,7 +73,7 @@
 (function() {
     
     
-    if (window.location.hostname == "localhost" && location.pathname.substring(1) == "about")
+    if (window.location.hostname == "localhost" || location.pathname.substring(1) == "about")
         return;
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
