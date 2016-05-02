@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>byte.uno</title>
+    <title>BYTE.UNO</title>
     <link>http://byte.uno/</link>
-    <description>Recent content on byte.uno</description>
+    <description>Recent content on BYTE.UNO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 17 Apr 2016 23:58:13 -0500</lastBuildDate>
@@ -11,10 +11,10 @@
     
     <item>
       <title>Como monitorear un archivo de logs en Linux</title>
-      <link>http://byte.uno/article/como-monitorear-un-archivo-de-logs-en-linux/</link>
+      <link>http://byte.uno/post/2016/04/17/como-monitorear-un-archivo-de-logs-en-linux</link>
       <pubDate>Sun, 17 Apr 2016 23:58:13 -0500</pubDate>
       
-      <guid>http://byte.uno/article/como-monitorear-un-archivo-de-logs-en-linux/</guid>
+      <guid>http://byte.uno/post/2016/04/17/como-monitorear-un-archivo-de-logs-en-linux</guid>
       <description>&lt;p&gt;Para abrir un archivo en la terminal talvez has usado el comando &lt;strong&gt;cat&lt;/strong&gt; o usado algun editor de consola como &lt;strong&gt;vi&lt;/strong&gt; o &lt;strong&gt;nano&lt;/strong&gt;, existe una mejor forma de abrir este tipo de archivos y es usando el comando &lt;strong&gt;watch&lt;/strong&gt; combinado con el comando &lt;strong&gt;tail&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://byte.uno/static/cmuael_1.PNG&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>Como instalar MongoDB en Windows</title>
-      <link>http://byte.uno/article/como-instalar-mongodb-en-windows/</link>
+      <link>http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows</link>
       <pubDate>Sat, 09 Apr 2016 09:26:43 -0500</pubDate>
       
-      <guid>http://byte.uno/article/como-instalar-mongodb-en-windows/</guid>
+      <guid>http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows</guid>
       <description>&lt;p&gt;Algunas veces es necesario instalar mongodb de forma local para propositos de desarrollo, este post explica como instalar mongodb en windows.&lt;/p&gt;
 
 &lt;p&gt;1.- Primero ve al sitio &lt;a href=&#34;https://www.mongodb.org/&#34;&gt;https://www.mongodb.org/&lt;/a&gt; y descarga el archivo .msi&lt;/p&gt;
@@ -57,18 +57,18 @@ y en otra terminal ejecuta el comando &amp;lsquo;mongo&amp;rsquo; para iniciar e
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://byte.uno/about/</link>
+      <title>About me</title>
+      <link>http://byte.uno/post/2016/03/05/about-me</link>
       <pubDate>Sat, 05 Mar 2016 08:53:04 -0500</pubDate>
       
-      <guid>http://byte.uno/about/</guid>
+      <guid>http://byte.uno/post/2016/03/05/about-me</guid>
       <description>
 
-&lt;h2 id=&#34;hi:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Hi !&lt;/h2&gt;
+&lt;h2 id=&#34;hi&#34;&gt;Hi !&lt;/h2&gt;
 
-&lt;p&gt;I&amp;rsquo;m a software developer based in Cancun, i love to talk about movies and drink coffee.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a software developer based in Cancun, I love to talk about movies and drink coffee.&lt;/p&gt;
 
-&lt;p&gt;you can see part of my work in&lt;/p&gt;
+&lt;p&gt;you can see part of my frontend work here&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://acqualife.com.mx&#34;&gt;http://acqualife.com.mx&lt;/a&gt;&lt;/p&gt;
 

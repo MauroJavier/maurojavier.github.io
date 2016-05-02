@@ -4,21 +4,20 @@
   <url>
     <loc>http://byte.uno/</loc>
     <lastmod>2016-04-17T23:58:13-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://byte.uno/article/como-monitorear-un-archivo-de-logs-en-linux/</loc>
+    <loc>http://byte.uno/post/2016/04/17/como-monitorear-un-archivo-de-logs-en-linux</loc>
     <lastmod>2016-04-17T23:58:13-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://byte.uno/article/como-instalar-mongodb-en-windows/</loc>
+    <loc>http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows</loc>
     <lastmod>2016-04-09T09:26:43-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://byte.uno/about/</loc>
+    <loc>http://byte.uno/post/2016/03/05/about-me</loc>
     <lastmod>2016-03-05T08:53:04-05:00</lastmod>
   </url>
   

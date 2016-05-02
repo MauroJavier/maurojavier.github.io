@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on BYTE.UNO</title>
+    <link>http://byte.uno/tags/windows/</link>
+    <description>Recent content in Windows on BYTE.UNO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 09 Apr 2016 09:26:43 -0500</lastBuildDate>
+    <atom:link href="http://byte.uno/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Como instalar MongoDB en Windows</title>
+      <link>http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows</link>
+      <pubDate>Sat, 09 Apr 2016 09:26:43 -0500</pubDate>
+      
+      <guid>http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows</guid>
+      <description>&lt;p&gt;Algunas veces es necesario instalar mongodb de forma local para propositos de desarrollo, este post explica como instalar mongodb en windows.&lt;/p&gt;
+
+&lt;p&gt;1.- Primero ve al sitio &lt;a href=&#34;https://www.mongodb.org/&#34;&gt;https://www.mongodb.org/&lt;/a&gt; y descarga el archivo .msi&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://byte.uno/static/htimow13032016_1.PNG&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;2.- Crea la siguiente estructura de directorios en tu disco duro.&lt;/p&gt;
+
+&lt;p&gt;C:\data\db&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;3.- Para que los comandos de consola funcionen tienes que agregar la ruta bin a tus variables de entorno,
+usualmente es C:\Program Files\MongoDB\Server\3.0\bin&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://byte.uno/static/htimow13032016_2.PNG&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;4.- Prueba tu instalación :)&lt;/p&gt;
+
+&lt;p&gt;abre la terminal y ejecuta el comando &amp;lsquo;mongod&amp;rsquo; para iniciar el servicio
+y en otra terminal ejecuta el comando &amp;lsquo;mongo&amp;rsquo; para iniciar el cliente.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://byte.uno/static/htimow13032016_3.PNG&#34; alt=&#34;img&#34; /&gt;
+&lt;img src=&#34;http://byte.uno/static/htimow13032016_4.PNG&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

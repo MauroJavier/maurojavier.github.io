@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on BYTE.UNO</title>
+    <link>http://byte.uno/tags/linux/</link>
+    <description>Recent content in Linux on BYTE.UNO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 17 Apr 2016 23:58:13 -0500</lastBuildDate>
+    <atom:link href="http://byte.uno/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Como monitorear un archivo de logs en Linux</title>
+      <link>http://byte.uno/post/2016/04/17/como-monitorear-un-archivo-de-logs-en-linux</link>
+      <pubDate>Sun, 17 Apr 2016 23:58:13 -0500</pubDate>
+      
+      <guid>http://byte.uno/post/2016/04/17/como-monitorear-un-archivo-de-logs-en-linux</guid>
+      <description>&lt;p&gt;Para abrir un archivo en la terminal talvez has usado el comando &lt;strong&gt;cat&lt;/strong&gt; o usado algun editor de consola como &lt;strong&gt;vi&lt;/strong&gt; o &lt;strong&gt;nano&lt;/strong&gt;, existe una mejor forma de abrir este tipo de archivos y es usando el comando &lt;strong&gt;watch&lt;/strong&gt; combinado con el comando &lt;strong&gt;tail&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://byte.uno/static/cmuael_1.PNG&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El parametro -n indica el numero de lineas mostradas para el comando &lt;strong&gt;tail&lt;/strong&gt; asi mismo el comando &lt;strong&gt;watch&lt;/strong&gt; acepta un parametro -n para indicar cada cuantos segundos se debe de actualizar el texto mostrado, el valor default es de 2 segundos como se puede ver en la imagen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://byte.uno/static/cmuael_2.PNG&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -6,18 +7,29 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <meta property="og:title" content=" BYTE.UNO" />
+        <meta property="og:title" content=" Como instalar MongoDB en Windows &middot;  BYTE.UNO" />
         <meta property="og:site_name" content="BYTE.UNO" />
-        <meta property="og:url" content="http://byte.uno/" />
+        <meta property="og:url" content="http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows" />
 
     
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="article" />
+        <meta property="og:article:published_time" content="2016-04-09T09:26:43-05:00" />
+        <meta property="og:article:tag" content="mongodb" />
+        <meta property="og:article:tag" content="windows" />
+        
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@https://twitter.com/Xaviel2" />
+        <meta name="twitter:creator" content="@https://twitter.com/Xaviel2" />
+        <meta name="twitter:title" content="Como instalar MongoDB en Windows" />
+        <meta name="twitter:description" content="Algunas veces es necesario instalar mongodb de forma local para propositos de desarrollo" />
+        <meta name="twitter:url" content="http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows" />
     
 
-        <title> BYTE.UNO</title>
+        <title> Como instalar MongoDB en Windows &middot;  BYTE.UNO</title>
 
     
-        <meta name="description" content=".NET, MongoDB, Linux" />
+        <meta name="description" content="Algunas veces es necesario instalar mongodb de forma local para propositos de desarrollo" />
     
 
         <meta name="p:domain_verify" content="fc173d84e3a4de948ed4bda2908afd3e"/>
@@ -29,12 +41,27 @@
         
 
     
+        <link href="http://byte.unoindex.xml" rel="alternate" type="application/rss+xml" title="BYTE.UNO" />
+    
 
     
-        <link href="http://byte.uno/index.xml" rel="alternate" type="application/rss+xml" title="BYTE.UNO" />
-    
-        <link rel="canonical" href="http://byte.uno/" />
+        <link rel="canonical" href="http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows" />
 
+    
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Como instalar MongoDB en Windows",
+        "author": {
+            "@type": "Person",
+            "name": "http://profiles.google.com/?rel=author"
+        },
+        "datePublished": "2016-04-09",
+        "description": "Algunas veces es necesario instalar mongodb de forma local para propositos de desarrollo",
+        "wordCount":  96 
+    }
+    </script>
     
 
     <style>
@@ -55,113 +82,118 @@
               </a>
             </div>
             <div class="nav-menu">
-              <a class="rss" href="http://byte.uno/index.xml">
+              <a class="rss" href="">
                 <i class="icon-rss"></i>
               </a>
+              
+              <a class="menu" data-action="menu" data-target="menu"><i class="icon-menu"></i></a>
               
             </div>
           </nav>
 
 
-	<header id="header" class="header has-cover">
+<main class="content" role="main">
+	<article class="post">
 		<div class="inner">
-			<a class="header-title" href="http://byte.uno">
-				<h1 class="header-name">BYTE.UNO</h1>
-				
-					<span class="header-description">by Mauro Javier</span>
-				
-			</a>
-		</div>
-		
-		
-		<div id="particles-js" class="header-cover"></div>
-		
 
-	</header>
+			<div id="push">
 
-	<div id="post-index" class="container">
+  			<header class="post-header">
+  				<span class="post-meta">
+						<span class="post-date">9 Apr 2016</span> <span class="reading-time">| <span class="estimated-reading-time">1 min.</span> (<span class="word-count">96</span> mots)</span></span>
+  				</span>
+  				<div class="clear"></div>
+  				<h1 class="post-title">Como instalar MongoDB en Windows</h1>
+  			</header>
 
-		<main class="content" role="main">
+  			<section class="post-content">
+  				<p>Algunas veces es necesario instalar mongodb de forma local para propositos de desarrollo, este post explica como instalar mongodb en windows.</p>
 
-			<div class="post-list">
-				<div id="push">
+<p>1.- Primero ve al sitio <a href="https://www.mongodb.org/">https://www.mongodb.org/</a> y descarga el archivo .msi</p>
 
-			
+<p><img src="/static/htimow13032016_1.PNG" alt="img" /></p>
 
-			
-			  
-<article class="post">
+<p>2.- Crea la siguiente estructura de directorios en tu disco duro.</p>
 
-	<div class="inner">
-		<a class="post-link" href="http://byte.uno/post/2016/04/17/como-monitorear-un-archivo-de-logs-en-linux"></a>
-		
-		<figure class="post-image">
-			<a href="http://byte.uno/post/2016/04/17/como-monitorear-un-archivo-de-logs-en-linux"><img src="/static/cmuael_1.PNG" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">17 Apr 2016</span>
-		</span>
-		<h2 class="post-title"><a href="http://byte.uno/post/2016/04/17/como-monitorear-un-archivo-de-logs-en-linux">Como monitorear un archivo de logs en Linux</a></h2>
-		<p class="post-excerpt">Para abrir un archivo en la terminal talvez has usado el comando&hellip;</p>
-		<span class="post-more"><a href="http://byte.uno/post/2016/04/17/como-monitorear-un-archivo-de-logs-en-linux">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
+<p>C:\data\db&gt;</p>
 
-			
-			  
-<article class="post">
+<p>3.- Para que los comandos de consola funcionen tienes que agregar la ruta bin a tus variables de entorno,
+usualmente es C:\Program Files\MongoDB\Server\3.0\bin</p>
 
-	<div class="inner">
-		<a class="post-link" href="http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows"></a>
-		
-		<figure class="post-image">
-			<a href="http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows"><img src="/static/htimow13032016_1.PNG" alt="" /></a>
-		</figure>
-		
-		<span class="post-meta">
-			<span class="post-date">9 Apr 2016</span>
-		</span>
-		<h2 class="post-title"><a href="http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows">Como instalar MongoDB en Windows</a></h2>
-		<p class="post-excerpt">Algunas veces es necesario instalar mongodb de forma local para propositos de desarrollo&hellip;</p>
-		<span class="post-more"><a href="http://byte.uno/post/2016/04/09/como-instalar-mongodb-en-windows">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
+<p><img src="/static/htimow13032016_2.PNG" alt="img" /></p>
 
-			
-			  
-<article class="post featured">
+<p>4.- Prueba tu instalación :)</p>
 
-	<div class="inner">
-		<a class="post-link" href="http://byte.uno/post/2016/03/05/about-me"></a>
-		
-		<span class="post-meta">
-			<span class="post-date">5 Mar 2016</span>
-		</span>
-		<h2 class="post-title"><a href="http://byte.uno/post/2016/03/05/about-me">About me</a></h2>
-		<p class="post-excerpt">I&#39;m a software developer based in Cancun&hellip;</p>
-		<span class="post-more"><a href="http://byte.uno/post/2016/03/05/about-me">Read More <i class="icon-arrow-right"></i></a></span>
-	</div>
-</article>
+<p>abre la terminal y ejecuta el comando &lsquo;mongod&rsquo; para iniciar el servicio
+y en otra terminal ejecuta el comando &lsquo;mongo&rsquo; para iniciar el cliente.</p>
 
-			
+<p><img src="/static/htimow13032016_3.PNG" alt="img" />
+<img src="/static/htimow13032016_4.PNG" alt="img" /></p>
 
-				</div>
+  			</section>
+
+  			<footer class="post-footer">
+  				<div class="post-tags">
+            
+            
+                <a href="http://byte.uno/tags/mongodb/">mongodb</a>
+            
+                <a href="http://byte.uno/tags/windows/">windows</a>
+            
+            
+  				</div>
+  				<div class="post-share">
+  					<a class="icon-twitter" href="https://twitter.com/share?text=Como%20instalar%20MongoDB%20en%20Windows&url=http%3a%2f%2fbyte.uno%2fpost%2f2016%2f04%2f09%2fcomo-instalar-mongodb-en-windows" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+  						<span>Twitter</span>
+  					</a>
+  					<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fbyte.uno%2fpost%2f2016%2f04%2f09%2fcomo-instalar-mongodb-en-windows" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+  						<span>Facebook</span>
+  					</a>
+  					<a class="icon-gplus" href="https://plus.google.com/share?url=http%3a%2f%2fbyte.uno%2fpost%2f2016%2f04%2f09%2fcomo-instalar-mongodb-en-windows" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+  						<span>Google+</span>
+  					</a>
+  				</div>
+  			</footer>
+
+  			<aside class="post-comments">
+    
+    
+    
+    
+</aside>
+
+
 			</div>
 
-			<nav id="pagination" class="pagination" role="pagination">
-	<div class="inner">
-	
-		<span class="pagination-info">Page 1 of 1</span>
-	
-		<div class="clear"></div>
-	</div>
-</nav>
+			<nav class="post-nav">
+				
+					<a class="post-nav-item post-nav-next" href="http://byte.uno/post/2016/03/05/about-me">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-left"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">About me</h4>
+								<p class="post-nav-excerpt">I&#39;m a software developer based in Cancun&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				
+					<a class="post-nav-item post-nav-prev" href="http://byte.uno/post/2016/04/17/como-monitorear-un-archivo-de-logs-en-linux">
+						<section class="post-nav-teaser">
+							<span class="post-nav-icon"><i class="icon-arrow-right"></i></span>
+							<span class="post-nav-info">
+								<h4 class="post-nav-title">Como monitorear un archivo de logs en Linux</h4>
+								<p class="post-nav-excerpt">Para abrir un archivo en la terminal talvez has usado el comando&hellip;</p>
+							</span>
+						</section>
+					</a>
+				
+				<div class="clear"></div>
+			</nav>
 
-
-		</main>
-
-	</div>
+		</div>
+	</article>
+</main>
 
 				<div id="body-class" style="display: none;"></div>
 				<div id="disqus_thread"></div>
@@ -188,6 +220,17 @@
 					</section>
 				</footer>
 				
+<div id="menu" data-target="menu">
+	<div class="menu-header">
+		<span class="menu-label">Menu</span>
+		<a class="menu-close" data-action="menu" data-target="menu"></a>
+	</div>
+	<div id="toc" class="menu-list">
+		
+	</div>
+</div>
+<div class="overlay"></div>
+
 
 			</div>
 		</section>
